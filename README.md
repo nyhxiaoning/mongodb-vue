@@ -1,5 +1,15 @@
 # mongodb-vue
 
+## 代码解决跨域问题
+cors
+安装插件
+~~~
+const cors = require("cors");
+app.use(cors()); //使用cors中间件
+
+
+~~~
+
 > A Vue.js project
 ## 跨域处理
 谷歌浏览器安装 Allow CORS: Access-Control-Allow-Origin
